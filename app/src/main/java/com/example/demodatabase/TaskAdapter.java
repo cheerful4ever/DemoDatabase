@@ -36,9 +36,9 @@ public class TaskAdapter extends ArrayAdapter<Task> {
         View rowView = inflater.inflate(R.layout.row, parent, false);
 
         // Get the TextView object
-        tvID = (TextView) rowView.findViewById(R.id.tvID);
-        tvDesc = (TextView) rowView.findViewById(R.id.tvDesc);
-        tvDate = (TextView) rowView.findViewById(R.id.tvDate);
+        tvID = (TextView) rowView.findViewById(R.id.textViewID);
+        tvDesc = (TextView) rowView.findViewById(R.id.textViewDescription);
+        tvDate = (TextView) rowView.findViewById(R.id.textViewDate);
 
 
         // The parameter "position" is the index of the
